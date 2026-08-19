@@ -1,0 +1,14 @@
+name: quinoa3d
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - laspy
+  - matplotlib
+  - numpy
+  - pillow
+  - scikit-image
+  - scipy
+  - pip
+  - pip:
+      - open3d==0.19.0

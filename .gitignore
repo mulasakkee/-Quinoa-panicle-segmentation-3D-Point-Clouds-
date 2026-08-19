@@ -1,0 +1,39 @@
+# Raw point clouds and generated numerical data
+/data/*
+!/data/README.md
+*.las
+*.laz
+*.ply
+*.npz
+*.npy
+
+# Pipeline outputs and local publishing workspace
+results*/
+NUL*
+.publish_stage/
+.publish_stage*/
+
+# Python caches, test artifacts, and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local configuration, secrets, and logs
+.env
+.env.*
+*.log
+logs/
